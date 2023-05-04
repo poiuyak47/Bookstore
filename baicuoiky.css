@@ -1,0 +1,61 @@
+/*header logo*/
+div.header{
+  height: 100px;
+  background-image: -o-linear-gradient(0);
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header__navr{
+    display: flex;
+    justify-content: space-between;
+    height:100 px;
+}
+.header__navr__item{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.header__navr__item{
+    margin: 0 8px;
+    position: relative;
+}
+.header__navr__item--trong::after{
+    content: "";
+    display:block;
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    background-color: rgb(25, 23, 23);
+    right: -9PX;
+    top: 4px;
+}
+div .thanhcongcu{
+   flex: 1;
+}
+div .thanhcongcu{
+    flex: 1px;
+    height: 20px;
+    background-color: var(--white-color);
+}
+/*mucluc*/
+.center{
+    text-align: left;
+    font-size: 30px; 
+    text-indent: 50px;
+    color: aliceblue;
+}
+.background{
+    height: 50px;
+    background-color: #087b39;
+    margin-bottom: 20px;
+    background-image: linear-gradient(0);  
+
+}
+.cac-ulr {
+    list-style: none;
+}
